@@ -192,12 +192,15 @@ nav .right a span {
     padding: 0px 50px;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
+  
 }
 
-p{
+p a{
     text-align: center;
     font-size: 15px;
     gap: 20px;
+    cursor: pointer;
+    color: var(--text-color);
 }
 
 .projects .project-details p{
