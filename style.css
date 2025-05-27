@@ -302,7 +302,7 @@ p a{
     }
 
     .work-section .projects img{
-        width: 100%;
+        width: 120%;
         margin-bottom: 30px;
         padding: 0;
         margin: 0;
@@ -361,7 +361,8 @@ p a{
 
   /* section3 work */
   .work-section{
-    padding: 26 90px;
+    /* padding: 5 20px; */
+    width: 90%;
   }
 
   /* section4 contact */
