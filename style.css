@@ -303,6 +303,15 @@ p a{
 
     .work-section .projects img{
         width: 500px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .work-section .projects a  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     /* section4 contact */
@@ -351,7 +360,7 @@ p a{
 
   /* section3 work */
   .work-section{
-    padding: 0 20px;
+    padding: 26 90px;
   }
 
   /* section4 contact */
