@@ -189,7 +189,7 @@ nav .right a span {
     /* gap: 10px; */
     width: 100%;
     object-fit: cover;
-    padding: 0px 50px;
+    padding: 0px 0px;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
   
@@ -302,7 +302,17 @@ p a{
     }
 
     .work-section .projects img{
-        width: 500px;
+        width: 120%;
+        margin-bottom: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .work-section .projects a  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     /* section4 contact */
@@ -351,7 +361,8 @@ p a{
 
   /* section3 work */
   .work-section{
-    padding: 0 20px;
+    /* padding: 5 20px; */
+    width: 90%;
   }
 
   /* section4 contact */
